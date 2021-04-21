@@ -1,0 +1,19 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "实验1",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm ./index.ts"
+  },
+  "author": "liushuoyan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.41",
+    "js-md5": "^0.7.3",
+    "puppeteer": "^8.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
